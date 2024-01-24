@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>contact</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="contact.css">
+    <link rel="icon" href="Club_lecture.jpg">
+</head>
+<body>
+    <section class="contact">
+        <div class="content">
+            <h2>Nous contacter</h2>
+            <p>Si le livre permet à l’individu de se connaître, le partage entre pairs permet à l’individu de grandir et 
+                de mieux connaître le monde auquel il appartient</p>
+        </div>
+        <div class="container">
+            <div class="contactInfo">
+                <div class="box">
+                    <div class="icon"><i class="fa fa-map-marker" aria-hidden="true"></i></div>
+                    <div class="text">
+                        <h3>adresse</h3>
+                        <p>Boulevard de l’environnement BP 104 <br>Monastir République <br>5060 Tunisie</p>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="icon"><i class="fa fa-phone" aria-hidden="true"></i></div>
+                    <div class="text">
+                        <h3>phone</h3>
+                        <p>+216 56 503 897</p>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="icon"><i class="fa fa-envelope-o" aria-hidden="true"></i></div>
+                    <div class="text">
+                        <h3>Email</h3>
+                        <p>mangeursdurouleau@gmail.com</p>
+                    </div>
+                </div>
+            </div>
+            <div class="contactForm">
+                <form action="traitement.php" method="post">
+                    <h2>Envoyez un message</h2>
+                    <div class="inputBox">
+                        <input type="text" name="Nom" required="required">
+                        <span>Votre nom</span>
+                    </div>
+
+                    <div class="inputBox">
+                        <input type="text" name="Email" required>
+                        <span>Email</span>
+                    </div>
+
+                    <div class="inputBox">
+                        <textarea type='text' name="Message" required="required"></textarea>
+                        <span>Pourquoi voulez-vous rejoindre le club?</span>
+                    </div>
+
+                    <div class="inputBox">
+                        <input type="submit" name="Envoyer" value="Envoyer">
+                    </div>
+                </form>
+            </div>
+        </div>     
+    </section>
+</body>
+</html>
